@@ -1,0 +1,26 @@
+main{
+  margin-top:0.5%;
+  margin-bottom:0.5%;
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.resumeHeader{
+  .margin-top:0.25%;
+  padding:0;
+}
+
+.resumeHeaderText{
+  font-size: 1.2em;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+}
+
+.resumeItemCard{
+  margin: 0.25%;
+  padding:0px;
+  border-bottom: 1px solid black;
+}
+
+.resumeItemCard:last-child{
+  border-bottom: 1px solid rgba(0,0,0,0);
+}
