@@ -1,11 +1,13 @@
 html{
   width: 100%;
   height: 100%;
+  max-height: 100%;
   /* overflow-x: hidden; */
 }
 
 body{
   height: 100%;
+  max-height: 100%;
   max-width: 1500px;
   margin: auto;
 }
@@ -13,8 +15,9 @@ body{
 .Container{
   width: 100%;
   height: 100%;
+  max-height: 100%;
   display: grid;
-  grid-template-columns: minmax(160px, 200px) minmax(540px, auto);
-  grid-template-rows:minmax(3.5em, auto) 16fr minmax(1em, auto);
+  grid-template-columns: minmax(160px, 180px) minmax(540px, auto);
+  grid-template-rows:repeat(auto-fill, 3.5em) minmax(1em, auto);
   grid-gap: 1%;
 }
