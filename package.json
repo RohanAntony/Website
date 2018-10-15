@@ -1,0 +1,19 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Website [rantony.com](http://rantony.com/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RohanAntony/Website.git"
+  },
+  "author": "Rohan Antony",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RohanAntony/Website/issues"
+  },
+  "homepage": "https://github.com/RohanAntony/Website#readme"
+}
